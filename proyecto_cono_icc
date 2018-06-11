@@ -13,6 +13,9 @@ def calcula_arealat():
 def calcula_areatl():
     return math.pi*radio*generatriz+math.pi*radio**2    
     
+#FUNCION maria 
+def volumen_cono():
+   return math.pi*radio**2*altura/3   
     
 #PROGRAM PRINCIPAL1
 print("Calcula el perimetro de la base")
