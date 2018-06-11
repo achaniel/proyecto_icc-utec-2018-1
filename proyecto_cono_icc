@@ -1,0 +1,8 @@
+#FUNCION sebas
+def calcula_areatl():
+    return math.pi*radio*generatriz+math.pi*radio**2
+    
+ #PROGRAM PRINCIPAL1
+ print("Calcula el Area Total de  un cono")
+a=calcula_areatl()
+print("------------------------------------------------")
