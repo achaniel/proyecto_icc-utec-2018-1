@@ -2,7 +2,7 @@
 import math
 print("La funcion de este programa es poder calcular el perimetro,area lateral, area total y volumen de un cono")
 def calcula_perimetro():
-    return 2*math.pi*radiodef calcula_areatl():
+    return 2*math.pi*radio
     
 #FUNCION paola
 def calcula_arealat():
