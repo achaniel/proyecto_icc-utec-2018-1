@@ -1,6 +1,6 @@
 #FUNCION ronny
 import math
-print("La funcion de este programa es poder calcular el perimetro,area lateral, area total y volumen de un cono")
+print("La funcion de este programa es poder calcular el perimetro de la base,area lateral, area total y volumen de un cono")
 def calcula_perimetro():
     return 2*math.pi*radio
     
