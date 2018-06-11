@@ -6,11 +6,10 @@ def calcula_perimetro():
     return math.pi*radio*generatriz+math.pi*radio**2
     
  #PROGRAM PRINCIPAL1
- #FUNCION ronny
-import math
-print("La funcion de este programa es poder calcular el perimetro,area lateral, area total y volumen de un cono")
-def calcula_perimetro():
-    return 2*math.pi*radio
+ print("Calcula el perimetro de la base")
+radio=int(input("ingresa el radio: "))
+b=calcula_perimetro()
+print("------------------------------------------------")
  
  print("Calcula el Area Total de  un cono")
 a=calcula_areatl()
