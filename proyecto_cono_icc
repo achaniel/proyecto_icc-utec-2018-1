@@ -8,6 +8,7 @@ def calcula_perimetro():
 #FUNCION paola
 def calcula_arealat():
     return math.pi*radio*generatriz
+    
 #FUNCION sebas
 def calcula_areatl():
     return math.pi*radio*generatriz+math.pi*radio**2    
