@@ -1,0 +1,9 @@
+#FUNCION
+def calcula_area():
+    return base*altura
+
+#PROGRAM PRINCIPAL
+altura=int(input('Altura: '))
+base=int(input('Base: '))
+a=calcula_area()
+print(a)

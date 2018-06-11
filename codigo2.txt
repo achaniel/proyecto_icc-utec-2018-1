@@ -1,0 +1,19 @@
+from random import randint
+
+def jugada():
+    print("Bienvenido al juego del friendzoneo")
+    print("El juego consiste en insertar dos nombres y ver si la persona lo friendzonea o se gana su corazon")
+    p1=input("Ingrese al primer jugador: ")
+    p2=input("Ingrese el segundo jugador: ")
+    n1=dado()
+    n2=dado()
+    if n1<n2:
+        print(str(p1)+" gano su corazon")
+    else:
+        print(str(p2)+" lo friendzoneo")
+
+def dado():
+        valor=randint(1,6)
+        print(valor)
+        return(valor)
+jugada()
