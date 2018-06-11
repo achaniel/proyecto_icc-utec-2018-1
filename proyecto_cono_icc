@@ -4,13 +4,19 @@ print("La funcion de este programa es poder calcular el perimetro,area lateral, 
 def calcula_perimetro():
     return 2*math.pi*radiodef calcula_areatl():
     return math.pi*radio*generatriz+math.pi*radio**2
+#FUNCION paola
+def calcula_arealat():
+    return math.pi*radio*generatriz
     
- #PROGRAM PRINCIPAL1
- print("Calcula el perimetro de la base")
+#PROGRAM PRINCIPAL1
+print("Calcula el perimetro de la base")
 radio=int(input("ingresa el radio: "))
 b=calcula_perimetro()
 print("------------------------------------------------")
- 
- print("Calcula el Area Total de  un cono")
+print("Calcula el Area Lateral de un cono")
+generatriz=int(input("Ingresa la generatriz:"))
+d=calcula_arealat()
+print("------------------------------------------------") 
+print("Calcula el Area Total de  un cono")
 a=calcula_areatl()
 print("------------------------------------------------")
